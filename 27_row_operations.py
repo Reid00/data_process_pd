@@ -44,3 +44,9 @@ students.drop(index=missing.index, inplace=True)
 students = students.reset_index(drop=True)
 
 print(students)
+
+# 重置行索引
+students.reindex(index=list('abcde'), fill_value=0)
+# method 只对行有用，ffill 用前一行的填充，bfill 用后一行
+students.reindex(index=list('abcde'), method='ffill')
+students.reindex(index=list('abcde'), method='bfill')
