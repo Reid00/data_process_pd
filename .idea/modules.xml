@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/data_process.iml" filepath="$PROJECT_DIR$/.idea/data_process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo/.idea/demo.iml" filepath="$PROJECT_DIR$/../demo/.idea/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dirs_files/.idea/dirs_files.iml" filepath="$PROJECT_DIR$/../dirs_files/.idea/dirs_files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scrapy_method/.idea/scrapy_method.iml" filepath="$PROJECT_DIR$/../scrapy_method/.idea/scrapy_method.iml" />
     </modules>
   </component>
 </project>
