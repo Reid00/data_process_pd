@@ -41,11 +41,12 @@ for i in range(2, 5):
 
 missing = students.loc[students['Name'] == '']
 students.drop(index=missing.index, inplace=True)
+# 不加drop=True 会让原先的index 生成一个列
 students = students.reset_index(drop=True)
 
 print(students)
 
-# 重置行索引
+# reindex(columns=，index=), 只是对行列重新调整排序
 students.reindex(index=list('abcde'), fill_value=0)
 # method 只对行有用，ffill 用前一行的填充，bfill 用后一行
 students.reindex(index=list('abcde'), method='ffill')

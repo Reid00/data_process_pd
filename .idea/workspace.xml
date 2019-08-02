@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="528003b2-ff78-4a0b-8094-258b4d32b9a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/27_row_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/27_row_operations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dirs_files/count_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dirs_files/count_num.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scrapy_method/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_method/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scrapy_method/.idea/scrapy_method.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy_method/.idea/scrapy_method.iml" afterDir="false" />
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../demo/get_first_col.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224">
-              <caret line="7" column="99" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="99" />
+            <state relative-caret-position="311">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -34,29 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11df_diff.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11df_join_merge.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/27_row_operations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="605">
+              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -116,7 +108,6 @@
         <option value="$PROJECT_DIR$/17df_pivot.py" />
         <option value="$PROJECT_DIR$/28_col_operations.py" />
         <option value="$PROJECT_DIR$/29_read_db.py" />
-        <option value="$PROJECT_DIR$/27_row_operations.py" />
         <option value="$PROJECT_DIR$/../dirs_files/get_dirs_name.py" />
         <option value="$PROJECT_DIR$/30np.py" />
         <option value="$PROJECT_DIR$/31np_array.py" />
@@ -130,6 +121,7 @@
         <option value="$PROJECT_DIR$/13df_split.py" />
         <option value="$PROJECT_DIR$/../demo/get_first_col.py" />
         <option value="$PROJECT_DIR$/11df_diff.py" />
+        <option value="$PROJECT_DIR$/27_row_operations.py" />
       </list>
     </option>
   </component>
@@ -328,12 +320,12 @@
       <workItem from="1562121733953" duration="4944000" />
       <workItem from="1562146608791" duration="10776000" />
       <workItem from="1563176500384" duration="2875000" />
-      <workItem from="1563931705913" duration="46629000" />
+      <workItem from="1563931705913" duration="47906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118474000" />
+    <option name="totallyTimeSpent" value="119751000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,25 +720,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11df_join_merge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="315">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../demo/get_first_col.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="7" column="99" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/27_row_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="311">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -755,8 +737,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11df_diff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27_row_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
