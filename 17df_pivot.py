@@ -18,5 +18,14 @@ sum = groups('score').sum()
 
 print(sum)
 
+# 用groupby 的方法
+groups2 = students.groupby(['Name'])
+s = groups2['score'].sum()
+c = groups2['Year'].count()
+pt2 = pd.DataFrame({
+    'Sum': s,
+    'Count': c
+})
+
 # print(students)
 # print(pt1)
