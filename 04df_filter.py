@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from datetime import date
 
 books = pd.read_excel('books.xlsx', sheet_name='Sheet1', skiprows=6, usecols='E:H,I', index_col='id')
@@ -17,3 +18,9 @@ books = books[books['numbers'].apply(lambda num: num > 10)].loc[
 # ix 上面两个都可以使用
 
 print(books)
+# 添加新的过滤方法
+df = pd.DataFrame({'name': ['a', 'b', 'c'], 'score': [0, 1, 2]})
+# np.where 满足某个条件进行分组
+df['sign'] = np.where(df['score'] < 2, np.nan, df['score'])
+# 满足某个条件进行修改
+df.loc[df['sign'].isnull(), 'name'] = 'true'
