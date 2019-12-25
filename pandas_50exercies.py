@@ -344,3 +344,36 @@ df = pd.DataFrame({"revenue": [57, 68, 63, 71, 72, 90, 80, 62, 59, 51, 47, 52],
 ax = df.plot.bar("month", "revenue", color="green")
 df.plot.line("month", "advertising", secondary_y=True, ax=ax)
 ax.set_xlim((-1, 12));
+
+
+#51. pandas 重命名列
+import pandas as pd
+score=pd.DataFrame({
+        'name':['Reid','Cona','Python','Language'],
+        'score':['100-A','95-A-','90-B','80-C']
+})
+score.columns=['Name2','Score2']
+print(score)
+score=score.rename({'Name2':'Name ','Score2':'Score '},axis='columns')
+print(score)
+score.columns=score.columns.str.replace('e','_')
+print(score)
+
+#52. 反转列序
+print(score.loc[::-1])
+print(score.loc[::-1].reset_index(),drop=True)
+
+#53. 反转列序
+print(score.loc[:,::-1])
+
+#54 按数据类型选择列
+score.dtypes
+score.select_dtypes(include='number') #数值型
+score.select_dtypes(include='object') #字符型
+
+#传递列表即可选择多种类型的列。
+score.select_dtypes(include=['number','object','catergory','datatime']) 
+
+# 还可以使用 exclude 关键字排除指定的数据类型。
+score.select_dtypes(exclude='number')
+
